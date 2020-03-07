@@ -5,7 +5,9 @@ import image from '../assets/img/header-bg.jpg';
 //reusable components
 import Services from '../common/Services';
 import Portfolio from '../common/Portfolio';
-import PortfolioItem from '../common/PortfolioItem';
+import Timeline from '../common/Timeline';
+import Team from '../common/Team';
+//import PortfolioItem from '../common/PortfolioItem';
 
 class Home extends Component {
 
@@ -23,6 +25,8 @@ class Home extends Component {
 
                 <Services />
                 <Portfolio />
+                <Timeline />
+                <Team />
                 
             </div>
         )
